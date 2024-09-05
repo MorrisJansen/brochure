@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>versie 2.0</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+
+
+    <div class="arrow left-arrow pijl-dekstop" onclick="previousPage()"><img class="pijl-links-desktop pijl-desktop" src="arrow-wit.svg" alt="pijl-links"></div>
+    <div class="arrow right-arrow pijl-dekstop" onclick="nextPage()"><img class="pijl-desktop" src="./arrow-wit.svg" alt="pijl-rechts"></div>
+    <div class="slider-indicator-container">
+        <div class="slider-indicator-item active"></div>
+        <div class="slider-indicator-item"></div>
+        <div class="slider-indicator-item"></div>
+        <div class="slider-indicator-item"></div>
+        <div class="slider-indicator-item"></div>
+      </div>
+
+
+
+
+
+
+
+      <div class="arrow left-arrow" onclick="previousImageMobile()"><img class="pijl-links-mobiel" src="./arrow-wit.svg" alt="pijl-links"></div>
+      <div class="arrow right-arrow" onclick="nextImageMobile()"><img class="pijl-rechts-mobiel" src="./arrow-wit.svg" alt="pijl-rechts"></div>
+
+
+      
+      <div class="mobile-slider-indicator-container">
+          <div class="mobile-slider-indicator-item active"></div>
+          <div class="mobile-slider-indicator-item"></div>
+          <div class="mobile-slider-indicator-item"></div>
+          <div class="mobile-slider-indicator-item"></div>
+          <div class="mobile-slider-indicator-item"></div>
+          <div class="mobile-slider-indicator-item"></div>
+          <div class="mobile-slider-indicator-item"></div>
+          <div class="mobile-slider-indicator-item"></div>
+          <div class="mobile-slider-indicator-item"></div>
+      </div>
+
+      <a class="klik-hier" href="Brochure boxspring lease - Dekbed Discounter.pdf" download="Brochure_Boxspring_Lease.pdf">
+        Klik hier om de brochure te downloaden 
+        <span style="font-size: 16px;;">&#8594;</span>
+    </a>
+
+    <a class="klik-hier-mobiel" href="Brochure boxspring lease - Dekbed Discounter.pdf" download="Brochure_Boxspring_Lease.pdf">
+        Klik hier om de brochure te downloaden &#8594;
+    </a>
+    
+
+
+
+      <div class="mobile-book">
+        <div class="mobile-image-container" onclick="nextImageMobile()">
+            <img class="mobile-brochure-afbeelding" id="mobile-image" src="./Cover.png" alt="Cover">
+        </div>
+    </div>
+
+
+
+
+
+
+
+    <div class="book">
+        <div class="page rechterpagina" onclick="movePage(this, 1)">
+            <img class="brochure-afbeelding" src="./Cover.png" alt="">
+        </div>
+        <div class="page blad-2 " onclick="movePage(this, 2)">
+            <img class="brochure-afbeelding linkerkant blad-2-1" src="./Pagina 2.png" alt="">
+        </div>
+        <div class="page rechterpagina" onclick="movePage(this, 3)">
+            <div class="p">
+                <img class="brochure-afbeelding" src="./Pagina 3.png" alt="">
+            </div>
+        </div>
+        <div class="page text-page" onclick="movePage(this, 4)">
+            <img class="brochure-afbeelding linkerkant" src="./Pagina 4.png" alt="">
+        </div>
+        <div class="page text-page rechterpagina" onclick="movePage(this, 5)">
+                <img class="brochure-afbeelding" src="./Pagina 5.png" alt="">
+        </div>
+        <div class="page text-page" onclick="movePage(this, 6)">
+            <img class="brochure-afbeelding linkerkant" src="./Pagina 6.png" alt="">
+        </div>
+        <div class="page text-page rechterpagina" onclick="movePage(this, 7)">
+                <img class="brochure-afbeelding" src="./Pagina 7.png" alt="">
+        </div>
+        <div class="page text-page" onclick="movePage(this, 8)">
+                <img class="brochure-afbeelding linkerkant" src="./Pagina 8.png" alt="">
+        </div>
+        <div class="page text-page rechterpagina" onclick="movePage(this, 9)">
+                <img class="brochure-afbeelding" src="./Pagina 9.png" alt="">
+        </div>
+
+
+
+
+
+
+
+
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>

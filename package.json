@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "pug": "^3.0.3",
+    "scss": "^0.2.4"
+  },
+    "scripts": {
+  "build": "pug src/index.pug -o dist && sass src/styles.scss dist/styles.css"
+}
+}
